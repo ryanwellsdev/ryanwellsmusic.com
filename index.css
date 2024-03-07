@@ -14,7 +14,7 @@ html {
 
     html {
         overflow-x: hidden;
-        overflow-y: auto;
+        overflow-y: hidden;
 
     }
 
@@ -23,8 +23,13 @@ html {
         min-width: 100%;
     }
 
+    .top-header {
+        overflow: hidden;
+    }
+
     .center-container {
-        padding: 0 1rem;    
+        padding: 0 1rem;
+        overflow: hidden;    
     }
 
     .right-side-icons {
