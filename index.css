@@ -26,6 +26,10 @@ html {
     .top-header {
         overflow: hidden;
     }
+    
+    .left-side-icons {
+        text-wrap: nowrap;
+    }
 
     .center-container {
         padding: 0 1rem;
