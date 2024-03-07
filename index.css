@@ -7,9 +7,16 @@ html {
     font-family: monospace;
     letter-spacing: .25em;
     background-color: black;
+    overflow: hidden;
 }
 
 @media (max-width: 768px) {
+
+    html {
+        overflow-x: hidden;
+        overflow-y: auto;
+
+    }
 
     .my-video {
         min-height: 100%;
