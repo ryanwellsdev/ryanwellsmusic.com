@@ -29,6 +29,7 @@ html {
     
     .left-side-icons {
         text-wrap: nowrap;
+        white-space: nowrap;
     }
 
     .center-container {
