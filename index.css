@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100vh;
+    font-family: monospace;
+    letter-spacing: .25em;
+    background-color: black;
+}
+
+@media (max-width: 768px) {
+
+    .my-video {
+        min-height: 100%;
+        min-width: 100%;
+    }
+
+    .center-container {
+        padding: 0 1rem;    
+    }
+
+    .right-side-icons {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .copyWrite {
+        position: static;
+        margin-top: 0.5rem;
+    }
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 20%;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.top-header {
+    background-color: rgba(0, 0, 0, 0.91);
+    height: 6rem;
+    min-height: 75px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-styling {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.left-side-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-self: auto;
+    text-wrap: nowrap;
+    min-width: 10em;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.right-side-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 2em;
+}
+
+.right-side-icons a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-bottom: 6rem;
+
+}
+
+.landing-page {
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: x-large;
+    color: #fff;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .25em;
+    animation: 
+      typing 6s steps(30, end),
+      blink-caret .7s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0% }
+    to { width:40% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    40% { border-color: rgb(255, 255, 255) }
+  } 
+
+  .bio-page {
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: x-large;
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    letter-spacing: .25em;
+    max-width: 50em;
+  }
+
+  .class-page {
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: x-large;
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    letter-spacing: .25em;
+    max-width: 50em;
+
+  }
+
+#studioPage img {
+    display: flex;
+    object-fit: contain;
+    max-width: 30rem;
+}
+
+#unmuteButton {
+    width: min-content;
+    background-color: transparent;
+    opacity: 60%;
+    border: none;
+    transform: scale(2);
+    position: fixed;
+    bottom: 4em;
+    left: -1em;
+    padding: 5em;
+}
+
+.footer-content {
+    background-color: rgba(0, 0, 0, 0.91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    min-height: 75px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.copyWrite {
+    position: absolute;
+    right: 3em;
+    color: #ffffff;
+    font-size: smaller;
+}
+
+.videoCredit {
+    position: absolute;
+    left: 3em;
+    color: #ffffff;
+    font-size: smaller;
+}
+
+.fa {
+    font-size: 24px;
+    margin: 0 .5em;
+    color: #ffffff;
+    text-decoration: none;
+}
