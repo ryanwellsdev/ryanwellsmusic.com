@@ -49,6 +49,7 @@ html {
     .copyWrite {
         position: static;
         margin-top: 0.5rem;
+        font-size: xx-small;
     }
 }
 
