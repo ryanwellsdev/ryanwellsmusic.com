@@ -10,12 +10,22 @@ html {
     overflow: hidden;
 }
 
+@media (min-width: 769px) {
+
+    .right-side-icons {
+        display: flex !important;
+    }
+
+    #menuButton {
+      display: none; /* Hide the menu button on desktop */
+    }
+  }
+
 @media (max-width: 768px) {
 
     html {
         overflow-x: hidden;
         overflow-y: hidden;
-
     }
 
     .my-video {
@@ -32,6 +42,11 @@ html {
         white-space: nowrap;
     }
 
+      #menuButton {
+        display: block;
+        padding-right: 2em;
+      }
+
     .center-container {
         padding: 0 1rem;
         overflow: hidden;    
@@ -40,6 +55,7 @@ html {
     .right-side-icons {
         flex-direction: column;
         justify-content: center;
+        display: none !important;
     }
 
     .footer-content {
