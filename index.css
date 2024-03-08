@@ -223,7 +223,7 @@ html {
     }
 
     #unmuteButton {
-        bottom: 6.5em;
+        bottom: 7em;
         left: 0.8em;
         transform: scale(1);
     }
@@ -231,8 +231,9 @@ html {
     .footer-content {
 
         flex-direction: column; 
+        text-wrap: nowrap;
         margin-top: 1em;
-        letter-spacing: .5em;
+        letter-spacing: .4em;
     }
 
     .copyWrite {

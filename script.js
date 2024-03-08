@@ -2,6 +2,7 @@ const video = document.getElementById("myVideo");
 
 const videoSources = [
   'https://d115p2gol6hf5z.cloudfront.net/boardwalk-background.mp4',
+  'https://d115p2gol6hf5z.cloudfront.net/hill-climber-background1.mp4',
   'https://d115p2gol6hf5z.cloudfront.net/hill-climber-background1.mp4'
 ];
 
