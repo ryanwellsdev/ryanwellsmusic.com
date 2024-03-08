@@ -63,7 +63,7 @@ html {
     }
 
     #unmuteButton {
-        transform: scale(1);
+        transform: scale(.5);
     }
 
     .copyWrite {
