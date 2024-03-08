@@ -16,6 +16,22 @@ function changeVideoSourceRandomly() {
 
 changeVideoSourceRandomly();
 
+const menuButton = document.getElementById('menuButton');
+const menuDropdown = document.getElementById('menuDropdown');
+
+menuButton.addEventListener('click', function () {
+  if (menuDropdown.style.display === 'none' || menuDropdown.style.display === '') {
+    menuDropdown.style.display = 'flex';
+  } else {
+    menuDropdown.style.display = 'none';
+  }
+});
+
+// Hide menuDropdown when a menu item is clicked
+menuDropdown.addEventListener('click', function () {
+  menuDropdown.style.display = 'none';
+});
+
 const button = document.getElementById('unmuteButton');
 
 function toggleMute() {

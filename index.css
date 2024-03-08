@@ -201,6 +201,28 @@ html {
         overflow: hidden;
     }
     
+    #menuDropdown {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.91);
+        top: 6rem;
+        left: 0;
+        width: 100%;
+      }
+    
+      #menuDropdown a {
+        padding: 1rem;
+        text-align: center;
+        color: #ffffff;
+        text-decoration: none;
+        border-bottom: 1px solid #ffffff;
+      }
+    
+      #menuDropdown a:last-child {
+        border-bottom: none;
+      }
+    
     .left-side-icons {
         text-wrap: nowrap;
         white-space: nowrap;
@@ -212,11 +234,12 @@ html {
         display: none;
     }
 
-      #menuButton {
+    #menuButton {
         display: block;
         padding-right: 2em;
       }
 
+      
     .center-container {
         padding: 0 1rem;
         overflow: hidden;    
