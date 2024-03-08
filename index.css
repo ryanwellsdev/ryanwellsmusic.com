@@ -210,7 +210,7 @@ html {
     .right-side-icons {
         flex-direction: column;
         justify-content: center;
-        display: none !important;
+        display: none;
     }
 
       #menuButton {
