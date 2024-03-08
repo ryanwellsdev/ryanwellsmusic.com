@@ -229,12 +229,16 @@ html {
     }
 
     .footer-content {
-        flex-direction: column;
+        flex-direction: column; 
     }
 
+    .videoCredit,
     .copyWrite {
-        position: static;
-        margin-top: 0.5rem;
-        font-size: xx-small;
+        position: relative; /* Change position to relative */
+        color: #ffffff;
+        text-align: center; /* Center text horizontally */
+        width: 100%; /* Ensure full width */
+        right: 0;
+        left: 0;
     }
 }
