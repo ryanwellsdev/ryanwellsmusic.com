@@ -232,13 +232,18 @@ html {
         flex-direction: column; 
     }
 
-    .videoCredit,
     .copyWrite {
-        position: relative; /* Change position to relative */
+        display: none;
+    }
+
+    .videoCredit {
+        position: relative;
         color: #ffffff;
-        text-align: center; /* Center text horizontally */
-        width: 100%; /* Ensure full width */
+        text-align: center;
+        width: 100%;
         right: 0;
         left: 0;
+        margin-top: 1em;
+        font-size: xx-small;
     }
 }
