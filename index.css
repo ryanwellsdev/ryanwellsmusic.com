@@ -223,6 +223,8 @@ html {
     }
 
     #unmuteButton {
+        bottom: 6.5em;
+        left: 0.8em;
         transform: scale(1);
     }
 
@@ -230,6 +232,7 @@ html {
 
         flex-direction: column; 
         margin-top: 1em;
+        letter-spacing: .5em;
     }
 
     .copyWrite {
