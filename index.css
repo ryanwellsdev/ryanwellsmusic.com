@@ -134,10 +134,10 @@ html {
     background-color: transparent;
     opacity: 60%;
     border: none;
-    transform: scale(2);
+    transform: scale(1.8);
     position: fixed;
-    bottom: 4em;
-    left: -1em;
+    bottom: 2em;
+    left: -3.2em;
     padding: 5em;
 }
 
@@ -175,7 +175,7 @@ html {
 }
 
 
-@media (min-width: 769px) {
+@media (min-width: 967px) {
 
     .right-side-icons {
         display: flex !important;
@@ -186,7 +186,7 @@ html {
     }
   }
 
-@media (max-width: 768px) {
+@media (max-width: 966px) {
 
     html {
         overflow-x: hidden;
@@ -224,12 +224,15 @@ html {
     }
 
     #unmuteButton {
-
+        bottom: 2em;
+        left: -3.2em;
         transform: scale(1);
     }
 
     .footer-content {
+
         flex-direction: column; 
+        margin-top: 1em;
     }
 
     .copyWrite {
