@@ -134,7 +134,7 @@ html {
     background-color: transparent;
     opacity: 60%;
     border: none;
-    transform: scale(1.5);
+    transform: scale(1.2);
     position: fixed;
     bottom: 7em;
     left: 1.5em;
@@ -181,7 +181,7 @@ html {
     }
 
     #menuButton {
-      display: none; /* Hide the menu button on desktop */
+      display: none;
     }
   }
 
@@ -223,9 +223,10 @@ html {
     }
 
     #unmuteButton {
+        transform: scale(1.2);
         bottom: 7em;
-        left: 0.8em;
-        transform: scale(1);
+        left: 1.5em;
+        padding: 1em;
     }
 
     .footer-content {
@@ -242,13 +243,5 @@ html {
 
     .videoCredit {
         display: none;
-        /* position: relative;
-        color: #ffffff;
-        text-align: center;
-        width: 100%;
-        right: 0;
-        left: 0;
-        margin-top: 1em;
-        font-size: xx-small; */
     }
 }
