@@ -224,8 +224,6 @@ html {
     }
 
     #unmuteButton {
-        bottom: 2em;
-        left: -3.2em;
         transform: scale(1);
     }
 
