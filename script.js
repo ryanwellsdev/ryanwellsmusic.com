@@ -68,6 +68,8 @@ function showLandingPage() {
 }
 function showListenPage() {
   changePage('none', null, 'none', "none", "none")
+  window.open('https://linktr.ee/ryanwellsmusic');
+
 }
 function showStudioPage() {
   changePage('none', 'none', null, "none", "none")
