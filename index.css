@@ -211,6 +211,7 @@ html {
         top: 6rem; /* Adjust to position below header */
         background-color: rgba(0, 0, 0, 0.91); 
         width: 100%;
+        gap: .5em;
     }
 
     #menuButton {
