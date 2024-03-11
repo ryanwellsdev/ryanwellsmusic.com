@@ -46,7 +46,6 @@ html {
     display: flex;
     justify-content: flex-start;
     align-self: auto;
-    text-wrap: nowrap;
     min-width: 10em;
     padding-right: 2em;
     padding-left: 2em;
@@ -202,7 +201,6 @@ html {
     }
     
     .left-side-icons {
-        text-wrap: nowrap;
         white-space: nowrap;
     }
 
@@ -231,8 +229,7 @@ html {
 
     .footer-content {
 
-        flex-direction: column; 
-        text-wrap: nowrap;
+        flex-direction: column;
         margin-top: 1em;
         letter-spacing: .4em;
     }
