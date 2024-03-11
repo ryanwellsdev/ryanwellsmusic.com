@@ -21,13 +21,22 @@ changeVideoSourceRandomly();
 document.addEventListener("DOMContentLoaded", function() {
   var menuButton = document.getElementById("menuButton");
   var rightSideIcons = document.querySelector(".right-side-icons");
+  var dropdownItems = document.querySelectorAll(".right-side-icons a");
 
+  // Event listener for menu button
   menuButton.addEventListener("click", function() {
       if (rightSideIcons.style.display === "none") {
           rightSideIcons.style.display = "flex";
       } else {
           rightSideIcons.style.display = "none";
       }
+  });
+
+  // Event listener for dropdown items
+  dropdownItems.forEach(function(item) {
+      item.addEventListener("click", function() {
+          rightSideIcons.style.display = "none"; // Hide the menu
+      });
   });
 });
 
