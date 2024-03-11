@@ -209,11 +209,13 @@ html {
         justify-content: flex-end; /* Aligning icons to the bottom */
         align-items: center;
         position: absolute;
-        top: 6rem; /* Adjust to position below header */
+        top: 6.1rem; /* Adjust to position below header */
         background-color: rgba(0, 0, 0, 0.91); 
         width: 100%;
         gap: 2em;
-        font-size: x-large;
+        font-size: larger;
+        padding-bottom: 1em;
+        padding-top: 1em;
     }
 
     #menuButton {
