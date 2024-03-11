@@ -136,7 +136,8 @@ html {
     transform: scale(1.2);
     position: fixed;
     bottom: 7em;
-    left: 1.5em;
+    left: 1em;
+    padding: 1em;
 }
 
 .footer-content {
