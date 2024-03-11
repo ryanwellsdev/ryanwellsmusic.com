@@ -1,3 +1,4 @@
+// this code changes the background video at random 
 const video = document.getElementById("myVideo");
 
 const videoSources = [
@@ -15,6 +16,24 @@ function changeVideoSourceRandomly() {
 
 changeVideoSourceRandomly();
 
+
+//this code is the mobile menu dropdown//
+document.addEventListener("DOMContentLoaded", function() {
+  var menuButton = document.getElementById("menuButton");
+  var rightSideIcons = document.querySelector(".right-side-icons");
+
+  menuButton.addEventListener("click", function() {
+      if (rightSideIcons.style.display === "none") {
+          rightSideIcons.style.display = "flex";
+      } else {
+          rightSideIcons.style.display = "none";
+      }
+  });
+});
+
+// this code is the ummute button, rotating between two icons, 
+// and changing the background videos audio.
+
 const button = document.getElementById('unmuteButton');
 
 function toggleMute() {
@@ -27,6 +46,9 @@ function toggleMute() {
 
 button.addEventListener('click', toggleMute);
 
+
+//this code changes the center container displayed content, 
+//between multiple rows.
 function changePage(landingPage, listenPage, studioPage, bioPage, contactPage) {
   document.getElementById("landingPage").style.display = landingPage;
   document.getElementById("listenPage").style.display = listenPage;

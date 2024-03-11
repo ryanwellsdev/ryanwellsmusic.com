@@ -183,9 +183,7 @@ html {
       display: none;
     }
   }
-
-@media (max-width: 966px) {
-
+  @media (max-width: 966px) {
     html {
         overflow-x: hidden;
         overflow-y: hidden;
@@ -205,15 +203,20 @@ html {
     }
 
     .right-side-icons {
-        flex-direction: column;
-        justify-content: center;
         display: none;
+        flex-direction: column; /* Displaying icons in a column */
+        justify-content: flex-end; /* Aligning icons to the bottom */
+        align-items: center;
+        position: absolute;
+        top: 6rem; /* Adjust to position below header */
+        background-color: rgba(0, 0, 0, 0.91); 
+        width: 100%;
     }
 
-      #menuButton {
+    #menuButton {
         display: block;
         padding-right: 2em;
-      }
+    }
 
     .center-container {
         padding: 0 1rem;
@@ -221,14 +224,12 @@ html {
     }
 
     #unmuteButton {
-        transform: scale(1.2);
         bottom: 7em;
         left: 1em;
         padding: 1em;
     }
 
     .footer-content {
-
         flex-direction: column;
         margin-top: 1em;
         letter-spacing: .4em;
@@ -242,3 +243,5 @@ html {
         display: none;
     }
 }
+
+
