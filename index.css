@@ -228,6 +228,12 @@ html {
         overflow: hidden;    
     }
 
+    .bio-page {
+        font-size: larger;
+        letter-spacing: .25em;
+        max-width: 25em;
+      }
+
     #unmuteButton {
         bottom: 7em;
         left: 1em;
