@@ -166,13 +166,17 @@ html {
     font-size: smaller;
 }
 
+.michelle {
+    text-decoration: none;
+    color: cadetblue;
+}
+
 .fa {
     font-size: 24px;
     margin: 0 .5em;
     color: #ffffff;
     text-decoration: none;
 }
-
 
 @media (min-width: 967px) {
 
