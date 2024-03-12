@@ -4,7 +4,7 @@ const video = document.getElementById("myVideo");
 const videoSources = [
   'https://d115p2gol6hf5z.cloudfront.net/boardwalk-background.mp4',
   'https://d115p2gol6hf5z.cloudfront.net/hill-climber-background1.mp4'
-];
+];  
 
 function changeVideoSourceRandomly() {
   const randomIndex = Math.floor(Math.random() * videoSources.length);
@@ -14,7 +14,12 @@ function changeVideoSourceRandomly() {
   video.load();
 }
 
-changeVideoSourceRandomly();
+// var playPromise = video.play();
+video.play().then(_ => {
+    changeVideoSourceRandomly();
+  })
+  .catch(error => {
+  console.log("Video not loaded", error)});
 
 
 //this code is the mobile menu dropdown//

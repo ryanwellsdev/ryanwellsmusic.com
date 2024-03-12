@@ -83,7 +83,7 @@ html {
     margin: 0 auto;
     letter-spacing: .25em;
     animation: 
-      typing 6s steps(30, end),
+      /* typing 6s steps(30, end), */
       blink-caret .7s step-end infinite;
 }
 
@@ -205,6 +205,7 @@ html {
     
     .left-side-icons {
         white-space: nowrap;
+        
     }
 
     .right-side-icons {
@@ -230,6 +231,15 @@ html {
     .center-container {
         padding: 0 1rem;
         overflow: hidden;    
+    }
+
+    .landing-page {
+        display: flex;
+        font-size: larger;
+        white-space: nowrap;
+        letter-spacing: .2em;
+    }
+
     }
 
     .bio-page {
