@@ -248,7 +248,7 @@ html {
         flex-direction: column;
         margin-top: 1em;
         letter-spacing: .4em;
-        
+        text-wrap: nowrap;
     }
 
     .copyWrite {
@@ -259,5 +259,3 @@ html {
         display: none;
     }
 }
-
-

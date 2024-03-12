@@ -42,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // this code is the ummute button, rotating between two icons, 
 // and changing the background videos audio.
-
 const button = document.getElementById('unmuteButton');
 
 function toggleMute() {
