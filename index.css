@@ -254,7 +254,6 @@ html {
 
     .footer-content {
         flex-direction: column;
-        margin-top: 1em;
         letter-spacing: .4em;
         text-wrap: nowrap;
     }
