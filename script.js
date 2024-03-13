@@ -101,7 +101,7 @@ function showLandingPage() {
   changePage(null, "none", "none", "none", "none")
 }
 function showListenPage() {
-  changePage('none', null, 'none', "none", "none")
+  changePage(null, "none", 'none', "none", "none")
   window.open('https://linktr.ee/ryanwellsmusic');
 
 }
