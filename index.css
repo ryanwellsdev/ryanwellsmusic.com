@@ -99,7 +99,7 @@ html {
 
   .bio-page {
     background-color: rgba(0, 0, 0, 0.6);
-    font-size: x-large;
+    font-size: x-large; 
     display: flex;
     align-items: center; 
     text-align: center;
@@ -238,8 +238,6 @@ html {
         font-size: larger;
         white-space: nowrap;
         letter-spacing: .2em;
-    }
-
     }
 
     .bio-page {

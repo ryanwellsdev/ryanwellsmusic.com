@@ -65,14 +65,14 @@ button.addEventListener('click', toggleMute);
 function changePage(landingPage, listenPage, studioPage, bioPage, contactPage) {
   document.getElementById("landingPage").style.display = landingPage;
   document.getElementById("listenPage").style.display = listenPage;
-  document.getElementById("studioPage").style.display = studioPage;
+  // document.getElementById("studioPage").style.display = studioPage;
   document.getElementById("bioPage").style.display = bioPage;
   document.getElementById("contactPage").style.display = contactPage;
 }
 
 const landingLink = document.getElementById("landingLink");
 const listenLink = document.getElementById("listenLink");
-const studioLink = document.getElementById("studioLink");
+// const studioLink = document.getElementById("studioLink");
 const bioLink = document.getElementById("bioLink");
 const contactLink = document.getElementById("contactLink");
 
@@ -84,10 +84,10 @@ listenLink.addEventListener('click', function (event) {
   event.preventDefault();
   showListenPage();
 });
-studioLink.addEventListener('click', function (event) {
-  event.preventDefault();
-  showStudioPage();
-});
+// studioLink.addEventListener('click', function (event) {
+//   event.preventDefault();
+//   showStudioPage();
+// });
 bioLink.addEventListener('click', function (event) {
   event.preventDefault();
   showBioPage();
@@ -105,9 +105,9 @@ function showListenPage() {
   window.open('https://linktr.ee/ryanwellsmusic');
 
 }
-function showStudioPage() {
-  changePage('none', 'none', null, "none", "none")
-}
+// function showStudioPage() {
+//   changePage('none', 'none', null, "none", "none")
+// }
 function showBioPage() {
   changePage('none', 'none', "none", null, "none")
 }
