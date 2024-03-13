@@ -226,10 +226,13 @@ html {
     #menuButton {
         display: block;
         padding-right: 2em;
+        z-index: 1;
     }
 
     .center-container {
         padding: 0 1rem;
+        display: flex;
+        padding-bottom: 5em;
         overflow: hidden;    
     }
 
