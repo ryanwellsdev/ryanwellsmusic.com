@@ -70,34 +70,45 @@ html {
     align-items: center;
     flex-grow: 1;
     margin-bottom: 6rem;
+}
 
+.mobile-line-break {
+    display: none;
 }
 
 .landing-page {
+    position: relative;
+    display: flex;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.6);
     font-size: x-large;
     color: #fff;
     overflow: hidden;
-    border-right: .15em solid orange;
+    /* border-right: .15em solid rgb(255, 255, 255); */
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .25em;
-    animation: 
-      /* typing 6s steps(30, end), */
-      blink-caret .7s step-end infinite;
-}
+    }
 
-@keyframes typing {
-    from { width: 0% }
-    to { width:40% }
-}
+    .sentence {
+        display: inline;
+      }
+      
+      #colon {
+        animation: blink-animation .8s steps(5, start) infinite;
+      }
+      
+      @keyframes blink-animation {
+        0%, 50% {
+            visibility: visible;
+          }
+          51%, 100% {
+            visibility: hidden;
+          }
+      }
+      
 
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    40% { border-color: rgb(255, 255, 255) }
-  } 
-
-  .bio-page {
+.bio-page {
     background-color: rgba(0, 0, 0, 0.6);
     font-size: x-large; 
     display: flex;
@@ -109,7 +120,7 @@ html {
     max-width: 50em;
   }
 
-  .class-page {
+.class-page {
     background-color: rgba(0, 0, 0, 0.6);
     font-size: x-large;
     display: flex;
@@ -240,8 +251,13 @@ html {
     .landing-page {
         display: flex;
         font-size: large;
+        text-align: center;
         white-space: nowrap;
-        letter-spacing: .2em;
+        letter-spacing: .4em;
+    }
+
+    .mobile-line-break {
+        display: flex;
     }
 
     .bio-page {
