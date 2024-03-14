@@ -190,14 +190,8 @@ html {
     color: cadetblue;
 }
 
-.fa-solid {
-    font-size: 24px;
-    margin: 0 .5em;
-    color: #ffffff;
-    text-decoration: none;
-}
 
-.fa-brands {
+.fa-brands, .fa-solid {
     font-size: 24px;
     margin: 0 .5em;
     color: #ffffff;
