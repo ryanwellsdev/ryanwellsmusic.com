@@ -19,7 +19,7 @@ html {
     height: 100vh;
     object-fit: cover;
     z-index: -1;
-    opacity: 20%;
+    opacity: 35%;
 }
 
 .wrapper {
